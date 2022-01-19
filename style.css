@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+}
+
+#logonav {
+    height: 80px;
+    padding-left: 20px ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#divnavdroite {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#imgchaussure {
+    height: 900px;
+    padding: 20px 80px;
+}
+
+#divchaussure {
+    position: relative;
+}
+
+.textechaussure {
+    position: absolute;
+    bottom: 45px;
+    left: 90px;
+    color:white ;
+}
+
+p {
+    margin:90px ;
+    margin-left: 0;
+}
+
+#divcollections {
+    display: flex;
+    justify-content: center;
+}
+
+.imgcollec {
+    margin: 5px;
+    position: relative;
+}
+
+.imgnouv {
+    height: 550px;
+}
+
+.txtnouv {
+   /* desz; */
+}
+
+footer {
+    height: 50px;
+    background-color: rgb(146, 189, 191);
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+#txtfooter {
+    
+}
+
+a:hover {
+    color: grey;
+}
+
+#divcollections div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#divcollections h3 {
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: silver;
+    border: solid silver;
+    text-align: center;
+    padding-top: 4px;
+    position: absolute;
+    bottom: -835px;
+    margin-left: 225px;
+
+}
+
+form {
+    width: 800px;
+    border: solid red;
+}
